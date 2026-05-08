@@ -15,8 +15,8 @@ function App() {
         <Abstract />
         <Methodology />
         <Results />
-        <Conclusion />
         <ResultsGallery />
+        <Conclusion />
       </main>
       <Footer />
       
