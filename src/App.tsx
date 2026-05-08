@@ -6,6 +6,7 @@ import Results from './sections/Results';
 import Conclusion from './sections/Conclusion';
 import Footer from './sections/Footer';
 import ResultsGallery from "./sections/ResultsGallery";
+import PipelineMain from './sections/PipelineMain';
 function App() {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
@@ -15,6 +16,7 @@ function App() {
         <Abstract />
         <Methodology />
         <Results />
+        <PipelineMain/>
         <ResultsGallery />
         <Conclusion />
       </main>
