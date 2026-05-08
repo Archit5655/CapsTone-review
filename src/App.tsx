@@ -5,7 +5,7 @@ import Methodology from './sections/Methodology';
 import Results from './sections/Results';
 import Conclusion from './sections/Conclusion';
 import Footer from './sections/Footer';
-
+import ResultsGallery from "./sections/ResultsGallery";
 function App() {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
@@ -16,8 +16,10 @@ function App() {
         <Methodology />
         <Results />
         <Conclusion />
+        <ResultsGallery />
       </main>
       <Footer />
+      
     </div>
   );
 }
